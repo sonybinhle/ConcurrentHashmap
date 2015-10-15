@@ -16,4 +16,4 @@ class KeyNotFoundException: public std::exception
 };
 
 
-#endif //CELERAONEEX2_KEYNOTFOUNDEXCEPTION_H
+#endif

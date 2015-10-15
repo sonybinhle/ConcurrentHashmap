@@ -19,4 +19,4 @@ public:
 };
 
 
-#endif //CELERAONEEX2_NODE_H
+#endif

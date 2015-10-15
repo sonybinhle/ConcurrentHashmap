@@ -138,4 +138,4 @@ Node<K, V> *LinkedList<K, V, KeyEqual>::find(const K &key) const {
     return curr;
 }
 
-#endif //CELERAONEEX2_LINKEDLIST_H
+#endif

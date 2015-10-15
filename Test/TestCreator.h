@@ -134,4 +134,4 @@ void TestCreator::reset() {
     instructions.clear();
 }
 
-#endif //CELERAONEEX2_TESTCREATOR_H
+#endif

@@ -32,4 +32,4 @@ void TestRunner<K, V>::run(ICollection<K, V> &hashmap, vector<Instruction<K, V>>
     }
 }
 
-#endif //CELERAONEEX2_TESTRUNNER_H
+#endif

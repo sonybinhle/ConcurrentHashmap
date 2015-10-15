@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //CELERAONEEX2_INSTRUCTION_H
+#endif

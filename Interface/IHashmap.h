@@ -39,4 +39,4 @@ size_t IHashmap<K, V, HASH, KeyEqual>::hash(const K &key) const {
     return  HASH()(key) % segmentSize;
 }
 
-#endif //CELERAONEEX2_IHASHMAP_H
+#endif

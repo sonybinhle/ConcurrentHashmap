@@ -139,4 +139,4 @@ size_t LinkedListHashmap<K, V, HASH, KeyEqual>::size() const {
     return total;
 }
 
-#endif //CELERAONEEX2_LINKEDLISTHASHMAP_H
+#endif

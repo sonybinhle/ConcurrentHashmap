@@ -76,4 +76,4 @@ void TestUtil::printFailureMsg(const string &testName, const string &hashName, c
     cerr << setw(30) << left << testName << "  :   Failed   :  "  << setw(30) << left << hashName << "   :   Exception-" << msg << endl;
 }
 
-#endif //CELERAONEEX2_TESTUTIL_H
+#endif

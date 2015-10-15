@@ -16,4 +16,4 @@ class TestCaseCreatorException : public std::exception
 };
 
 
-#endif //CELERAONEEX2_TESTCASECREATOREXCEPTION_H
+#endif

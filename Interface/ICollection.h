@@ -47,4 +47,4 @@ size_t ICollection<K, V, KeyEqual>::size() const {
     return total;
 }
 
-#endif //CELERAONEEX2_ICOLLECTION_H
+#endif

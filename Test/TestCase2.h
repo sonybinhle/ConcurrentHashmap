@@ -79,4 +79,4 @@ double TestCase2::runCheck(HashmapType &hashmap) {
     return time;
 }
 
-#endif //CELERAONEEX2_TestCase2_H
+#endif

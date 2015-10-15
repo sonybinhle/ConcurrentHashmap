@@ -100,4 +100,4 @@ size_t ConcurrentLinkedList<K, V, KeyEqual>::size() const {
     return linkedList->size();
 }
 
-#endif //CELERAONEEX2_CONCURRENTLINKEDLIST_H
+#endif

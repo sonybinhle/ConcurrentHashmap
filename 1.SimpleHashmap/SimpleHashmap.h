@@ -171,4 +171,4 @@ typename SimpleHashmap<K, V, HASH, KeyEqual>::Node *SimpleHashmap<K, V, HASH, Ke
     return curr;
 }
 
-#endif //CELERAONEEX2_HASHMAP_H
+#endif

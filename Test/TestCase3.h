@@ -88,4 +88,4 @@ double TestCase3::runCheck(HashmapType &hashmap) {
     return time;
 }
 
-#endif //CELERAONEEX2_TestCase3_H
+#endif

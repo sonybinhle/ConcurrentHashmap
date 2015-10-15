@@ -95,4 +95,4 @@ size_t SimpleConcurrentHashmap<K, V, HASH, KeyEqual>::size() const {
     return simpleHashmap->size();
 }
 
-#endif //CELERAONEEX2_SIMPLECONCURRENTHASHMAP_H
+#endif

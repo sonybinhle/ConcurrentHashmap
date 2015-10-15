@@ -33,4 +33,4 @@ template<class K, class V, class KeyEqual>
 ILinkedList<K, V, KeyEqual>::~ILinkedList() {
 }
 
-#endif //CELERAONEEX2_IILinkedList_H
+#endif

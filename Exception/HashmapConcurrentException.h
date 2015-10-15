@@ -15,4 +15,4 @@ class HashmapConcurrentException : public std::exception
     }
 };
 
-#endif //CELERAONEEX2_HASHMAPCONCURRENTEXCEPTION_H
+#endif

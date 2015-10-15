@@ -15,4 +15,4 @@ class HashmapInvalidImplementationException : public std::exception
     }
 };
 
-#endif //CELERAONEEX2_HASHIMPLEMENTATIONEXCEPTION_H
+#endif
