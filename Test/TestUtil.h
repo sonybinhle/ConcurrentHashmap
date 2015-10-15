@@ -2,8 +2,8 @@
 // Created by Fear on 10/10/15.
 //
 
-#ifndef CELERAONEEX2_TESTUTIL_H
-#define CELERAONEEX2_TESTUTIL_H
+#ifndef CONCURRENTHASHMAP_TESTUTIL_H
+#define CONCURRENTHASHMAP_TESTUTIL_H
 
 #include <vector>
 #include <set>

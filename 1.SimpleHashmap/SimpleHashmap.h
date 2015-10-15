@@ -2,8 +2,8 @@
 // Created by Fear on 10/9/15.
 //
 
-#ifndef CELERAONEEX2_HASHMAP_H
-#define CELERAONEEX2_HASHMAP_H
+#ifndef CONCURRENTHASHMAP_HASHMAP_H
+#define CONCURRENTHASHMAP_HASHMAP_H
 
 #include "../Interface/IHashmap.h"
 #include "../Exception/KeyNotFoundException.h"
@@ -12,7 +12,8 @@ template<class K, class V, class HASH = std::hash<K>, class KeyEqual = std::equa
 class SimpleHashmap : public IHashmap<K, V, HASH, KeyEqual> {
 public:
     SimpleHashmap(size_t _segmentSize = IHashmap<K, V, HASH, KeyEqual>::DEFAULT_SEGMENT_SIZE);
-    ~SimpleHashmap();
+
+    virtual ~SimpleHashmap();
 
     void put(const K &key, const V &value);
     void remove(const K &key);
@@ -20,8 +21,9 @@ public:
     V &at(const K &key) const;
     bool contains(const K &key) const;
 
-    virtual std::string getName() const;
-    virtual void clear();
+    std::string getName() const;
+
+    void clear();
 protected:
     struct Node {
         Node(Node *_next, const K &_key, const V &_value) {

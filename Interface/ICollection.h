@@ -2,8 +2,8 @@
 // Created by Fear on 10/10/15.
 //
 
-#ifndef CELERAONEEX2_ICOLLECTION_H
-#define CELERAONEEX2_ICOLLECTION_H
+#ifndef CONCURRENTHASHMAP_ICOLLECTION_H
+#define CONCURRENTHASHMAP_ICOLLECTION_H
 
 #include <functional>
 #include <string>

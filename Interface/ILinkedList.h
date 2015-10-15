@@ -2,8 +2,8 @@
 // Created by Fear on 10/11/15.
 //
 
-#ifndef CELERAONEEX2_ILinkedList_H
-#define CELERAONEEX2_ILinkedList_H
+#ifndef CONCURRENTHASHMAP_ILinkedList_H
+#define CONCURRENTHASHMAP_ILinkedList_H
 
 #include "../Interface/ICollection.h"
 #include "../Interface/Node.h"

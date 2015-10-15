@@ -2,8 +2,8 @@
 // Created by Fear on 10/10/15.
 //
 
-#ifndef CELERAONEEX2_INSTRUCTION_H
-#define CELERAONEEX2_INSTRUCTION_H
+#ifndef CONCURRENTHASHMAP_INSTRUCTION_H
+#define CONCURRENTHASHMAP_INSTRUCTION_H
 
 enum class InstructionEnum {PUT = 1, REMOVE = 2, AT = 3};
 

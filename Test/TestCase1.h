@@ -2,8 +2,8 @@
 // Created by Fear on 10/10/15.
 //
 
-#ifndef CELERAONEEX2_TESTCASE1_H
-#define CELERAONEEX2_TESTCASE1_H
+#ifndef CONCURRENTHASHMAP_TESTCASE1_H
+#define CONCURRENTHASHMAP_TESTCASE1_H
 
 #include "ITestCase.h"
 #include "../Interface/IHashmap.h"

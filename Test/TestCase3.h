@@ -2,8 +2,8 @@
 // Created by Fear on 10/10/15.
 //
 
-#ifndef CELERAONEEX2_TestCase3_H
-#define CELERAONEEX2_TestCase3_H
+#ifndef CONCURRENTHASHMAP_TestCase3_H
+#define CONCURRENTHASHMAP_TestCase3_H
 
 #include <thread>
 

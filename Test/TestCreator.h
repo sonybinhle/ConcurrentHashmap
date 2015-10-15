@@ -2,8 +2,8 @@
 // Created by Fear on 10/10/15.
 //
 
-#ifndef CELERAONEEX2_TESTCREATOR_H
-#define CELERAONEEX2_TESTCREATOR_H
+#ifndef CONCURRENTHASHMAP_TESTCREATOR_H
+#define CONCURRENTHASHMAP_TESTCREATOR_H
 
 #include <iostream>
 #include <vector>

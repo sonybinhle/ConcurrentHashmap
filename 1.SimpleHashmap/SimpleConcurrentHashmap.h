@@ -2,8 +2,8 @@
 // Created by Fear on 10/10/15.
 //
 
-#ifndef CELERAONEEX2_SIMPLECONCURRENTHASHMAP_H
-#define CELERAONEEX2_SIMPLECONCURRENTHASHMAP_H
+#ifndef CONCURRENTHASHMAP_SIMPLECONCURRENTHASHMAP_H
+#define CONCURRENTHASHMAP_SIMPLECONCURRENTHASHMAP_H
 
 #include <mutex>
 #include "SimpleHashmap.h"
@@ -20,10 +20,13 @@ public:
     V &at(const K &key) const;
     bool contains(const K &key) const;
 
-    virtual std::string getName() const;
-    virtual void clear();
-    virtual bool isEmpty() const;
-    virtual size_t size() const;
+    std::string getName() const;
+
+    void clear();
+
+    bool isEmpty() const;
+
+    size_t size() const;
 protected:
     mutable std::recursive_mutex _lock;
 

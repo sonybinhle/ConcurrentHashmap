@@ -2,8 +2,8 @@
 // Created by Fear on 10/11/15.
 //
 
-#ifndef CELERAONEEX2_LINKEDLISTHASHMAP_H
-#define CELERAONEEX2_LINKEDLISTHASHMAP_H
+#ifndef CONCURRENTHASHMAP_LINKEDLISTHASHMAP_H
+#define CONCURRENTHASHMAP_LINKEDLISTHASHMAP_H
 
 #include "../Interface/IHashmap.h"
 #include "LinkedList.h"
@@ -36,7 +36,7 @@ protected:
 
 template<class K, class V, class HASH, class KeyEqual>
 LinkedListHashmap<K, V, HASH, KeyEqual>::LinkedListHashmap(size_t _segmentSize, bool _concurrent)
-        : concurrent(_concurrent), IHashmap<K, V, HASH, KeyEqual>(_segmentSize) {
+        : IHashmap<K, V, HASH, KeyEqual>(_segmentSize), concurrent(_concurrent) {
     initSegments();
 }
 

@@ -2,8 +2,8 @@
 // Created by Fear on 10/11/15.
 //
 
-#ifndef CELERAONEEX2_LINKEDLIST_H
-#define CELERAONEEX2_LINKEDLIST_H
+#ifndef CONCURRENTHASHMAP_LINKEDLIST_H
+#define CONCURRENTHASHMAP_LINKEDLIST_H
 
 #include "../Exception/KeyNotFoundException.h"
 #include "../Interface/ILinkedList.h"

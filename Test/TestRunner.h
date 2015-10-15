@@ -2,8 +2,8 @@
 // Created by Fear on 10/10/15.
 //
 
-#ifndef CELERAONEEX2_TESTRUNNER_H
-#define CELERAONEEX2_TESTRUNNER_H
+#ifndef CONCURRENTHASHMAP_TESTRUNNER_H
+#define CONCURRENTHASHMAP_TESTRUNNER_H
 
 #include "TestCreator.h"
 #include "../Interface/ICollection.h"

@@ -2,8 +2,8 @@
 // Created by Fear on 10/11/15.
 //
 
-#ifndef CELERAONEEX2_IHASHMAP_H
-#define CELERAONEEX2_IHASHMAP_H
+#ifndef CONCURRENTHASHMAP_IHASHMAP_H
+#define CONCURRENTHASHMAP_IHASHMAP_H
 
 #include "ICollection.h"
 

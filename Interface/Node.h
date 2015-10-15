@@ -2,8 +2,8 @@
 // Created by Fear on 10/11/15.
 //
 
-#ifndef CELERAONEEX2_NODE_H
-#define CELERAONEEX2_NODE_H
+#ifndef CONCURRENTHASHMAP_NODE_H
+#define CONCURRENTHASHMAP_NODE_H
 
 template<class K, class V>
 class Node {
